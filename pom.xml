@@ -53,17 +53,6 @@
                 <version>3.0.0-M7</version>
             </plugin>
 
-            <!-- Maven Exec Plugin - allows running the application with mvn exec:java -->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.6.0</version>
-                <configuration>
-                    <!-- Specify the main class to run -->
-                    <mainClass>inventory.Main</mainClass>
-                </configuration>
-            </plugin>
-
             <!-- JAR plugin to create executable JAR -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
